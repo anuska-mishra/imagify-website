@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="login-signup.css">
+	<script src="login-signup.js"></script>
+	<title>Sign Up or Log In</title>
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk">
+
+			<div class="signup">
+				<form>
+					<label for="chk">Sign up</label>
+					<input type="text" name="name" placeholder="Username" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button onclick="">Sign up</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>Login</button>
+				</form>
+			</div>
+	</div>
+</body>
+</html>
